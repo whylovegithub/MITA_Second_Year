@@ -1,0 +1,80 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  Template for creating scribe notes.
+%
+%  Fill in your name, lecture number, lecture date and body
+%  of scribe notes as indicated below.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[11pt]{article}
+
+\usepackage{graphicx}
+\usepackage{amssymb}
+
+\setlength{\topmargin}{0pt}
+\setlength{\textheight}{9in}
+\setlength{\headheight}{0pt}
+\setlength{\headsep}{0pt}
+\setlength{\oddsidemargin}{0.25in}
+\setlength{\textwidth}{6in}
+
+\newcommand{\draftnotice}{\vbox to 0.25in{\noindent
+   \raisebox{0.6in}[0in][0in]{\makebox[\textwidth][r]{\it
+    DRAFT --- a final version will be posted shortly}}}
+   \vspace{-.25in}\vspace{-\baselineskip}
+}
+
+\pagestyle{plain}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+
+\begin{center}
+\bf\large Introduction to Data Structure and Algorithm
+\end{center}
+
+\noindent
+Lecturer: Jalaj Upadhyay   %%% FILL IN LECTURER (if not RS)
+\hfill
+Lecture 1\               %%% FILL IN LECTURE NUMBER HERE
+\\
+Scribe: HaoyuWang                 %%% FILL IN YOUR NAME HERE
+\hfill
+Jan 18th, 2022           %%% FILL IN LECTURE DATE HERE
+
+\noindent
+\rule{\textwidth}{1pt}
+
+\medskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% BODY OF SCRIBE NOTES GOES HERE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The Algothrim is sequence of atomic steps to tell a machine how to solve a problem. 
+Any ways to solve the problem can be called a algorithm. 
+But the main purpose is to find the balance between the memory usage and the solving time of current target problem.
+
+{\bf Algorithm 1: Minimum Finding}
+
+Just go through the whole Array $A$ of size $n$ numbers to find the current smallest element by setting a pointer to the latest smallest element and a pointer to move from $A[0]$ to $A[n]$
+The running time denpended on the size of Array $A$ because we need $n$ atomic steps to go through and compare to find the smallest element.
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
